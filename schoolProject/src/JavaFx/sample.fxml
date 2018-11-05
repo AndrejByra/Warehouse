@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="472.0" prefWidth="822.0" stylesheets="style.css" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="412.0" prefWidth="812.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <Button layoutX="190.0" layoutY="315.0" mnemonicParsing="false" onAction="#button" text="Insert" />
+            <TextField fx:id="textField" layoutX="49.0" layoutY="116.0" promptText="Name of product" />
+            <TextField fx:id="textField1" layoutX="49.0" layoutY="165.0" promptText="Name of person" />
+            <TextField fx:id="textField2" layoutX="49.0" layoutY="211.0" promptText="Pieces" />
+            <TextField fx:id="textField3" layoutX="49.0" layoutY="255.0" promptText="Name od country" />
+            <TableView fx:id="table" editable="true" layoutX="397.0" layoutY="17.0" prefHeight="308.0" prefWidth="302.0">
+              <columns>
+                 <TableColumn fx:id="col_product" prefWidth="75.0" text="product" />
+                 <TableColumn fx:id="col_buyer" prefWidth="75.0" text="buyer" />
+                 <TableColumn fx:id="col_pieces" prefWidth="75.0" text="pieces" />
+                 <TableColumn fx:id="col_country" prefWidth="75.0" text="country" />
+              </columns>
+            </TableView>
+            <Button fx:id="carry" layoutX="42.0" layoutY="315.0" mnemonicParsing="false" onAction="#carry" text="Carry" />
+            <Button fx:id="update" layoutX="108.0" layoutY="315.0" mnemonicParsing="false" onAction="#update" text="Update" />
+            <Label fx:id="label" layoutX="38.0" layoutY="377.0" prefHeight="21.0" prefWidth="372.0" />
+            <Label fx:id="name" layoutX="80.0" layoutY="29.0" prefHeight="21.0" prefWidth="130.0" text="eShop" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>

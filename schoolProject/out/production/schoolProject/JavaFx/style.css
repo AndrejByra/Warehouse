@@ -1,0 +1,124 @@
+* {
+    -fx-primary : #2A2E37;
+    -fx-secondary : #00CED1	;
+    -fx-primarytext : #B2B2B2;
+    -fx-blue: #1976D2;
+    -fx-red: #FF0000;
+    -fx-color-1:#1976D2;
+}
+
+
+
+.root{
+    -fx-background-color: -fx-primary;
+    -fx-font-family: Calibri;
+
+}
+.button{
+    -fx-text-fill: -fx-primarytext;
+    -fx-background-color: -fx-primary;
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-font-size: 12pt;
+
+}
+
+.button:hover{
+    -fx-border-color: -fx-secondary;
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: -fx-primary;
+}
+
+#textField{
+    -fx-background-color: -fx-primary;
+    -fx-text-color:white;
+    -fx-text-fill: white;
+    -fx-border-color: grey;
+    -fx-border-width: 0 0 1 0;
+}
+#textField:focused{
+    -fx-border-color: -fx-secondary;
+    -fx-border-width: 0 0 1 0;
+}
+
+#textField1{
+    -fx-background-color: -fx-primary;
+    -fx-text-color:white;
+    -fx-text-fill: white;
+    -fx-border-color: grey;
+    -fx-border-width: 0 0 1 0;
+}
+#textField1:focused{
+    -fx-border-color: -fx-secondary;
+    -fx-border-width: 0 0 1 0;
+}
+
+#textField2{
+    -fx-background-color: -fx-primary;
+    -fx-text-color:white;
+    -fx-text-fill: white;
+    -fx-border-color: grey;
+    -fx-border-width: 0 0 1 0;
+}
+#textField2:focused{
+    -fx-border-color: -fx-secondary;
+    -fx-border-width: 0 0 1 0;
+}
+#textField3{
+    -fx-background-color: -fx-primary;
+    -fx-text-color:white;
+    -fx-text-fill: white;
+    -fx-border-color: grey;
+    -fx-border-width: 0 0 1 0;
+}
+#textField3:focused{
+    -fx-border-color: -fx-secondary;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(-fx-secondary 0%, #424141 100%);
+
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, -fx-primary;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+#name{
+
+    -fx-text-fill: -fx-secondary;
+    -fx-font-size: 35pt;
+    -fx-font-weight: bolt;
+}
+#label{
+    -fx-text-fill: red;
+}
